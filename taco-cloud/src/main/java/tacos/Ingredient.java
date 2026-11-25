@@ -21,6 +21,9 @@ public class Ingredient {
   private Type type;
   private BigDecimal price;
 
+  public Ingredient(String id, String name, Type type) {
+    this(id, name, type, BigDecimal.ZERO);
+  }
   public enum Type {
     WRAP, PROTEIN, VEGGIES, CHEESE, SAUCE, DRINK
   }
