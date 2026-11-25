@@ -33,7 +33,7 @@ public class TacoCloudApplication {
         repo.save(new Ingredient("JACK", "Monterrey Jack", Type.CHEESE, new BigDecimal("1.00")));
         repo.save(new Ingredient("SLSA", "Salsa", Type.SAUCE, new BigDecimal("0.50")));
         repo.save(new Ingredient("SRCR", "Sour Cream", Type.SAUCE, new BigDecimal("0.75")));
-        repo.save(new Ingredient("COLA", "Cola", Type.DRINK, new BigDecimal("1.25")));
+        repo.save(new Ingredient("COLA", "Coca-Cola", Type.DRINK, new BigDecimal("1.25")));
         repo.save(new Ingredient("WATR", "Mineral Water", Type.DRINK, new BigDecimal("1.00")));
       }
     };
